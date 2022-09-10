@@ -1,0 +1,155 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+a {
+  outline: none;
+  text-decoration: none;
+}
+.Maincontainer {
+  width: 100vw;
+  height: 100vh;
+  /* background-color: #242526; */
+}
+
+.topBar {
+  background-color: #242526;
+  border-bottom: 1px solid #3e4042;
+}
+
+.left {
+  background-color: #242526;
+  border-right: 1px solid #3e4042;
+}
+
+.right {
+  background-color: #18191a;
+}
+
+.mainTop {
+  width: 100%;
+  height: 30rem;
+  background-image: url(./images/banner.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.profileImg {
+  border-radius: 100%;
+  width: 200px;
+  height: 200px;
+  /* background-color: aquamarine; */
+  background-image: url(./images/coupleprofile.jpg);
+  background-position: center;
+  border: 3px solid #242526;
+}
+
+.profileImgIntroSec {
+  background-image: url(./images/coupleprofile.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.mainupper {
+  width: 70%;
+}
+
+.mainbottom {
+  width: 100%;
+}
+
+.rightMain {
+  background-color: #242526;
+}
+
+.friendsCircleImg span {
+  border: 2px solid #242526;
+}
+
+.hr {
+  height: 5px;
+  background-color: #fff;
+}
+
+.linksMain {
+  border-top: 1px solid #3e3f41;
+}
+
+.eventBox {
+  border: 1px solid #4b5563;
+  cursor: pointer;
+}
+
+.eventBox:hover {
+  border: 1px solid #909499;
+  background-color: #3a3b3c;
+}
+
+.likeIconBorder {
+  border: 1px solid #242526;
+}
+
+.commentsInput {
+  background-color: #3e404271;
+}
+
+.buttonBg {
+  background-color: #3e4042b9;
+}
+
+/* .bannerbutton {
+  display: none;
+}
+
+.mainTop:hover .bannerbutton {
+  display: block;
+} */
+
+/* .profileBtn {
+  display: none;
+}
+
+.profileImg:hover .profileBtn {
+  display: block;
+} */
+
+@media (min-width: 400px) {
+  .mainupper {
+    width: 100%;
+  }
+  .profileImg {
+    width: 150px;
+    height: 150px;
+    background-position: center;
+    background-size: cover;
+  }
+  .friendsCircleImg span {
+    border: 1px solid #242526;
+  }
+}
+
+@media (min-width: 640px) {
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 1024px) {
+  .mainupper {
+    width: 80%;
+  }
+}
+
+@media (min-width: 1280px) {
+  .mainupper {
+    width: 70%;
+  }
+}
+
+@media (min-width: 1536px) {
+  .mainupper {
+    width: 70%;
+  }
+}
