@@ -390,9 +390,6 @@ video {
 .mb-4 {
   margin-bottom: 1rem;
 }
-.block {
-  display: block;
-}
 .flex {
   display: flex;
 }
@@ -527,31 +524,31 @@ video {
   background-color: rgb(254 202 202 / var(--tw-bg-opacity));
 }
 .bg-iconBg {
-  background-image: url(./coupleprofile.fea5ad71.jpg);
+  background-image: url(/assets/coupleprofile.fea5ad71.jpg);
 }
 .bg-iconBg1 {
-  background-image: url(./coupleprofile1.e12434fb.jpg);
+  background-image: url(/assets/coupleprofile1.e12434fb.jpg);
 }
 .bg-iconBg2 {
-  background-image: url(./coupleprofile2.a97bf1c6.jpg);
+  background-image: url(/assets/coupleprofile2.a97bf1c6.jpg);
 }
 .bg-iconBg3 {
-  background-image: url(./coupleprofile3.6a725bba.jpg);
+  background-image: url(/assets/coupleprofile3.6a725bba.jpg);
 }
 .bg-iconBg4 {
-  background-image: url(./coupleprofile4.e998c057.jpg);
+  background-image: url(/assets/coupleprofile4.e998c057.jpg);
 }
 .bg-iconBg5 {
-  background-image: url(./coupleprofile5.32fd3cef.jpg);
+  background-image: url(/assets/coupleprofile5.32fd3cef.jpg);
 }
 .bg-iconBg6 {
-  background-image: url(./coupleprofile6.faae83f6.jpg);
+  background-image: url(/assets/coupleprofile6.faae83f6.jpg);
 }
 .bg-iconBg7 {
-  background-image: url(./coupleprofile7.e23610c0.jpg);
+  background-image: url(/assets/coupleprofile7.e23610c0.jpg);
 }
 .bg-iconBg8 {
-  background-image: url(./coupleprofile8.07e44696.jpg);
+  background-image: url(/assets/coupleprofile8.07e44696.jpg);
 }
 .bg-cover {
   background-size: cover;
@@ -703,7 +700,7 @@ a {
 .mainTop {
   width: 100%;
   height: 30rem;
-  background-image: url(./banner.5d2ce726.jpg);
+  background-image: url(/assets/banner.5d2ce726.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -712,12 +709,12 @@ a {
   border-radius: 100%;
   width: 200px;
   height: 200px;
-  background-image: url(./coupleprofile.fea5ad71.jpg);
+  background-image: url(/assets/coupleprofile.fea5ad71.jpg);
   background-position: center;
   border: 3px solid #242526;
 }
 .profileImgIntroSec {
-  background-image: url(./coupleprofile.fea5ad71.jpg);
+  background-image: url(/assets/coupleprofile.fea5ad71.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -819,7 +816,7 @@ a {
   -webkit-text-decoration-line: underline;
   text-decoration-line: underline;
 }
-@media (min-width: 400px) {
+@media (min-width: 360px) {
   .xs\:m-2 {
     margin: 0.5rem;
   }
