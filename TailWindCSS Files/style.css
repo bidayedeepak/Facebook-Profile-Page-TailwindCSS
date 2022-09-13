@@ -9,7 +9,6 @@ a {
 .Maincontainer {
   width: 100vw;
   height: 100vh;
-  /* background-color: #242526; */
 }
 
 .topBar {
@@ -39,7 +38,6 @@ a {
   border-radius: 100%;
   width: 200px;
   height: 200px;
-  /* background-color: aquamarine; */
   background-image: url(./images/coupleprofile.jpg);
   background-position: center;
   border: 3px solid #242526;
@@ -98,22 +96,6 @@ a {
 .buttonBg {
   background-color: #3e4042b9;
 }
-
-/* .bannerbutton {
-  display: none;
-}
-
-.mainTop:hover .bannerbutton {
-  display: block;
-} */
-
-/* .profileBtn {
-  display: none;
-}
-
-.profileImg:hover .profileBtn {
-  display: block;
-} */
 
 @media (min-width: 400px) {
   .mainupper {
